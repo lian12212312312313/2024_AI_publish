@@ -1,0 +1,28 @@
+.all {
+  display: flex;
+  flex-direction: column;
+  /* width: fit-content -> 자식에 따라서 넓이가 결정됨 */
+  width: fit-content;
+  height: 180px;
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 10px;
+  gap: 20px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  padding: 20px;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 10px;
+  justify-content: center;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}

@@ -1,0 +1,54 @@
+.class {
+  display: flex;
+  flex-direction: column;
+}
+
+.one {
+  display: flex;
+  flex-direction: row;
+}
+
+.box {
+  width: 200px;
+  height: 120px;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  color: white;
+  padding-right: 8px;
+  padding-bottom: 8px;
+  font-weight: 700;
+}
+
+.aa {
+  background-color: #1abc9c;
+}
+
+.bb {
+  background-color: #2ecc71;
+}
+
+.cc {
+  background-color: #3498db;
+}
+
+.dd {
+  background-color: #16a085;
+}
+
+.ee {
+  background-color: #27ae60;
+}
+
+.ff {
+  background-color: #2980b9;
+}
+.gg {
+  background-color: #f1c40f;
+}
+.hh {
+  background-color: #e67e22;
+}
+.ii {
+  background-color: #e74c3c;
+}

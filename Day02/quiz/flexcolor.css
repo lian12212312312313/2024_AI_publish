@@ -1,0 +1,17 @@
+.box {
+  display: flex;
+  flex-direction: row;
+}
+.color {
+  width: 200px;
+  height: 100px;
+}
+.one {
+  background-color: #1abc9c;
+}
+.two {
+  background-color: #2ecc71;
+}
+.three {
+  background-color: #3498db;
+}

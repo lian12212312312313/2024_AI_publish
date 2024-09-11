@@ -1,0 +1,32 @@
+.box {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+.one > img {
+  display: flex;
+  flex-direction: column;
+}
+.one {
+  text-align: center;
+}
+
+.alltwo {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.album {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+.two > img {
+  display: flex;
+  flex-direction: column;
+}
+
+.two {
+  text-align: center;
+}

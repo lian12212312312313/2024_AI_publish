@@ -1,0 +1,81 @@
+.paletteBox {
+  padding: 40px 10px 15px 10px;
+  border-radius: 8px;
+}
+.hex {
+  text-transform: uppercase;
+}
+.vvv {
+  margin: 20px;
+  font-weight: bolder;
+}
+.aaaa {
+  padding-left: 20px;
+}
+.aa {
+  background-color: #f6f1ff;
+  border: 1px solid #f6f1ff;
+  color: #a776d0;
+  font-weight: bold;
+}
+.ss {
+  background-color: #efe6ff;
+  border: 1px solid #efe6ff;
+  color: #9358c6;
+  font-weight: bold;
+}
+
+.dd {
+  background-color: #e0d0ff;
+  border: 1px solid #e0d0ff;
+  color: #8f52c7;
+  font-weight: bold;
+}
+.ff {
+  background-color: #cbaaff;
+  border: 1px solid #cbaaff;
+  color: #9357d1;
+  font-weight: bold;
+}
+.qq {
+  background-color: #b47aff;
+  border: 1px solid #b47aff;
+  color: white;
+  font-weight: bold;
+}
+.ww {
+  background-color: #9f45ff;
+  border: 1px solid #9f45ff;
+  color: white;
+  font-weight: bold;
+}
+.ee {
+  background-color: #981fff;
+  border: 1px solid #981fff;
+  color: white;
+  font-weight: bold;
+}
+.rr {
+  background-color: #8b0ef3;
+  border: 1px solid #8b0ef3;
+  color: white;
+  font-weight: bold;
+}
+.zz {
+  background-color: #6c0abd;
+  border: 1px solid #6c0abd;
+  color: white;
+  font-weight: bold;
+}
+.xx {
+  background-color: #610ba7;
+  border: 1px solid #610ba7;
+  color: white;
+  font-weight: bold;
+}
+.cc {
+  background-color: #3c0372;
+  border: 1px solid #3c0372;
+  color: white;
+  font-weight: bold;
+}
