@@ -1,0 +1,26 @@
+.text {
+  color: skyblue;
+}
+/* hover : 마우스 올리면 아래꺼 적용됨 */
+.text:hover {
+  background-color: pink;
+  font-size: 50px;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: pink;
+
+  /* 변형이 일어날 떄, 어떻게 적용시킬지 */
+  transition: all 10s;
+}
+.box:hover {
+  border-radius: 1px;
+  background-color: yellow;
+
+  /* 변형 관련된 속성 */
+  transform: rotate(45deg) scale(2);
+
+  /* opacity : 투명도 */
+  /* opacity: 0.3; */
+}

@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "HakgyoansimBadasseugiTTF-L";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2408-5@1.0/HakgyoansimBadasseugiTTF-L.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.container {
+  width: 260px;
+  height: 400px;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+}
+.box > img {
+  width: 260px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.tool {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding: 5px;
+}
+.toll {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 0 5px;
+}
+.one {
+  color: red;
+  font-size: 20px;
+}
+.two {
+  font-weight: bold;
+  font-size: 20px;
+}
+.three {
+  font-weight: bold;
+  font-size: 15px;
+  padding-bottom: 3px;
+}
+
+.name {
+  font-family: "HakgyoansimBadasseugiTTF-L";
+}

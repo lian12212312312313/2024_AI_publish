@@ -1,0 +1,81 @@
+@font-face {
+  font-family: "Paperlogy-8ExtraBold";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-8ExtraBold.woff2")
+    format("woff2");
+  font-weight: 800;
+  font-style: normal;
+}
+
+.all {
+  width: 300px;
+  height: 600px;
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+  border-radius: 20px;
+}
+
+.contests {
+  border: 1px solid black;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.one {
+  gap: 1px;
+}
+
+.hi {
+  display: flex;
+  flex-direction: row;
+}
+
+.box > img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 9999px;
+}
+
+.hi {
+  font-size: 30px;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+}
+
+.name {
+  font-family: "Paperlogy-8ExtraBold";
+}
+
+.motto {
+  font-family: "Paperlogy-8ExtraBold";
+}
+
+.sns {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+.button {
+  width: 100%;
+  padding: 10px 0 10px 0;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 20px;
+}
+
+.snsicon {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}

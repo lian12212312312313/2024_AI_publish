@@ -1,0 +1,82 @@
+.all {
+  width: 1000px;
+  height: 400px;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 10px 0;
+}
+.new {
+  font-size: 18px;
+  font-weight: bold;
+}
+.new1 {
+  font-size: 12px;
+}
+
+.box1 {
+  display: flex;
+  flex-direction: row;
+}
+.album {
+  display: flex;
+  flex-direction: column;
+}
+.pho {
+  width: 180px;
+  height: 250px;
+  object-fit: cover;
+  padding: 7px;
+}
+
+.icon {
+  position: relative;
+  left: 153px;
+  bottom: 45px;
+  background-color: red;
+  opacity: 0.6;
+  width: 26px;
+  height: 25px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 9999px;
+}
+
+.won {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 0 0 0 9px;
+}
+
+.one {
+  font-weight: 700;
+  padding: 0 0 5px 0;
+  position: relative;
+  bottom: 30px;
+}
+.two {
+  font-size: 13px;
+  font-weight: 500;
+  position: relative;
+  bottom: 30px;
+}
+.three {
+  font-size: 10px;
+  position: relative;
+  bottom: 30px;
+}
+.four {
+  width: 35px;
+  height: 20px;
+  font-size: 9px;
+  background-color: white;
+  border: 2px solid red;
+  border-radius: 5px;
+  font-weight: 700;
+  color: red;
+  position: relative;
+  bottom: 30px;
+}
