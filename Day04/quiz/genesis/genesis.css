@@ -1,0 +1,92 @@
+.header {
+  width: 100vw;
+  position: fixed;
+  top: 0px;
+  background-color: black;
+  padding: 11px;
+}
+
+.nav {
+  width: 100%;
+  max-width: 1650px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  color: white;
+  padding: 10px 40px;
+  font-size: 13px;
+  display: flex;
+  flex-direction: row;
+}
+
+.logo > img {
+  width: 130px;
+  height: 25px;
+  object-fit: cover;
+}
+
+.logo2 > span {
+  padding: 0px 30px;
+  gap: 30px;
+}
+
+.link {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  font-size: 13px;
+  gap: 30px;
+}
+
+.fa-bars {
+  padding: 0px 30px;
+}
+
+main {
+  width: 100vw;
+  height: 850px;
+  object-fit: cover;
+  background-image: url(https://www.genesis.com/content/dam/genesis-p2/kr/assets/main/hero/genesis-kr-main-key-visual-gv80-24fl-desktop-2560x900.jpg);
+  background-position: center;
+}
+
+.all {
+  width: 100%;
+  height: 850px;
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.big {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: white;
+  padding: 100px 0px;
+}
+.big > h2 {
+  font-size: 80px;
+}
+.big > span {
+  font-size: 20px;
+}
+.big1 {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  align-items: end;
+  padding: 300px 0px;
+}
+
+.big1 > span {
+  color: white;
+  font-weight: 700;
+}

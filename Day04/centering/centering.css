@@ -1,0 +1,19 @@
+.one {
+  width: 100vw;
+  height: 100vh;
+  background-color: pink;
+}
+.contents {
+  width: 100%;
+
+  /* 너가 아무리 넓이가 넓어도 1200px 넘지 마셈 */
+  max-width: 1200px;
+  height: 100px;
+  background-color: skyblue;
+
+  /* auto (중앙화 필살기) */
+  margin: 0 auto;
+
+  /* 위아래 좌우 */
+  /* padding : 10px 20px; */
+}
